@@ -1,0 +1,54 @@
+html{
+    background-color: #a52a2a;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    font-size: larger;
+    background-color: #A7422D;
+    border: 3px solid #a9592f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding: 5% ;
+    margin: 10px;
+}
+.form *{
+    margin: 10px;
+}
+.form input{
+    background-color: transparent;
+    border: 2px solid #a9592f;
+    color: azure;
+}
+.deck{
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.card{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 4%;
+    width: 100px;
+    height: 150px;
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+}
+.card:hover{
+    background-color: rgb(210, 231, 250);
+    border: 3px solid red;
+}
+.suit{
+    display: flex;
+    flex-flow: row wrap;
+}
